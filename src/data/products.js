@@ -35,7 +35,7 @@ export const products = [
     oldPrice: 360,
     unit: "/kg",
     badge: "Special",
-    image: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnI4a_KDnUIa6iAi5YyNu5ZHYmIQYlpzPu4hh1ZC1qI4ZcPilaKe5Qpfai4Xojc9m2aW9jTR_oiXMg25TjYOQHRqIzESDceFgA0ChHaTI2tAO4YERkIGtRWue1tPJgdIVT1Qtm7jBcaPl1T=s1360-w1360-h1020-rw",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6YISFo7nvDwokjAGikJeNjmbb_SmFy2EjMwUe_HhT3BfZpoS4J5aLmgRh&s=10",
     available: true,
     featured: true,
     seasonal: true,
