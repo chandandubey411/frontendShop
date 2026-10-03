@@ -21,6 +21,7 @@ export default function HeroSection() {
             </span>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 leading-tight mb-5 text-balance">
+              <span className="sr-only">Dwivedi Fruit Shop – Fresh Fruits in Janakpuri: </span>
               Freshness You Can<br />
               <span className="text-green-600">Taste</span> Every Day.
             </h1>

@@ -528,7 +528,27 @@
 </head>
 
 <body>
-  <div id="root"></div>
+  <div id="root">
+    <!-- Initial pre-rendered semantic markup for search bots (Bing, Google) before React hydrates -->
+    <header style="padding: 24px 16px; text-align: center; max-width: 800px; margin: 0 auto; font-family: system-ui, -apple-system, sans-serif;">
+      <h1 style="font-size: 28px; color: #166534; margin-bottom: 12px; font-weight: 800; line-height: 1.25;">
+        Dwivedi Fruit Shop – Fresh Fruits in Janakpuri, New Delhi
+      </h1>
+      <p style="font-size: 16px; color: #4b5563; line-height: 1.6; margin-bottom: 16px;">
+        Fresh, seasonal and premium fruits available daily at Chhoti Subji Mandi, Janakpuri, New Delhi – 110058. 
+        Freshness you can taste every day. Order fresh mangoes, apples, bananas, grapes, and exotic fruits directly on WhatsApp.
+      </p>
+      <p style="font-size: 14px; color: #15803d; font-weight: 600;">
+        जनकपुरी में ताज़े फल की दुकान • Call / WhatsApp: +91 99108 50024
+      </p>
+    </header>
+  </div>
+  <noscript>
+    <div style="padding: 20px; text-align: center; font-family: system-ui, sans-serif;">
+      <h1>Dwivedi Fruit Shop – Fresh Fruits in Janakpuri, New Delhi</h1>
+      <p>Fresh, seasonal fruits available daily at 10/16, Chhoti Subji Mandi, Janakpuri, New Delhi – 110058. Contact / WhatsApp: +91 99108 50024.</p>
+    </div>
+  </noscript>
   <script type="module" src="/src/main.jsx"></script>
 </body>
 
