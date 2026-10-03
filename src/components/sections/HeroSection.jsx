@@ -28,8 +28,11 @@ export default function HeroSection() {
             <p className="text-gray-600 text-lg leading-relaxed mb-2 max-w-lg mx-auto lg:mx-0">
               Fresh, hand-picked fruits available daily at Dwivedi Fruit Shop, Chhoti Subji Mandi, Janakpuri.
             </p>
-            <p className="text-gray-500 text-sm mb-8">
+            <p className="text-gray-500 text-sm mb-2">
               Visit our shop or order directly on WhatsApp.
+            </p>
+            <p className="text-green-700 text-sm font-medium mb-8" lang="hi">
+              जनकपुरी में ताज़े फल की दुकान — रोज़ ताज़ा, सही दाम में 🍎
             </p>
 
             {/* CTAs */}

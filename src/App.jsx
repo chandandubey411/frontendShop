@@ -15,6 +15,7 @@ import SeasonalSection from "./components/sections/SeasonalSection";
 import PromoBanner from "./components/sections/PromoBanner";
 import WhyChooseUs from "./components/sections/WhyChooseUs";
 import AboutSection from "./components/sections/AboutSection";
+import LocalSEOSection from "./components/sections/LocalSEOSection";
 import LocationSection from "./components/sections/LocationSection";
 import CTASection from "./components/sections/CTASection";
 
@@ -46,6 +47,7 @@ function AppInner() {
         <PromoBanner />
         <WhyChooseUs />
         <AboutSection />
+        <LocalSEOSection />
         <LocationSection />
         <CTASection />
       </main>

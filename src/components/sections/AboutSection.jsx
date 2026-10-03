@@ -11,7 +11,7 @@ export default function AboutSection() {
             <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl shadow-green-100">
               <img
                 src="/shop.jpeg"
-                alt="Fresh fruits displayed at a market stall"
+                alt="Dwivedi Fruit Shop at 10/16, Chhoti Subji Mandi, Janakpuri, New Delhi – fresh seasonal fruits display"
                 className="w-full h-full object-cover"
                 loading="lazy"
                 onError={(e) => { e.target.src = "https://placehold.co/600x400/f0fdf4/22c55e?text=Fresh+Fruits"; }}

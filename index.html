@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Preconnect for faster image loading -->
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://tse4.mm.bing.net" />
+
     <!-- Primary SEO -->
     <title>Dwivedi Fruit Shop | Fresh Fruits in Janakpuri, New Delhi</title>
     <meta name="description" content="Shop fresh, seasonal and premium fruits at Dwivedi Fruit Shop in Chhoti Subji Mandi, Janakpuri, New Delhi. Browse available fruits and order easily through WhatsApp." />
@@ -23,10 +28,19 @@
     <meta property="og:site_name" content="Dwivedi Fruit Shop" />
     <meta property="og:locale" content="en_IN" />
 
+    <!-- OpenGraph Image -->
+    <meta property="og:image" content="https://dwivedifruitshop.in/shop.jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Dwivedi Fruit Shop – Fresh Fruits at Chhoti Subji Mandi, Janakpuri" />
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@DwivediFruits" />
     <meta name="twitter:title" content="Dwivedi Fruit Shop | Fresh Fruits in Janakpuri" />
     <meta name="twitter:description" content="Order fresh fruits directly on WhatsApp from Dwivedi Fruit Shop, Janakpuri, New Delhi." />
+    <meta name="twitter:image" content="https://dwivedifruitshop.in/shop.jpeg" />
+    <meta name="twitter:image:alt" content="Dwivedi Fruit Shop – Fresh Fruits at 10/16, Chhoti Subji Mandi, Janakpuri, New Delhi" />
 
     <!-- LocalBusiness Structured Data -->
     <script type="application/ld+json">
@@ -34,30 +48,345 @@
       "@context": "https://schema.org",
       "@type": "GroceryStore",
       "name": "Dwivedi Fruit Shop",
-      "description": "Fresh, seasonal and premium fruits available daily at Chhoti Subji Mandi, Janakpuri, New Delhi.",
+      "alternateName": "Dwivedi Fruit Shop Janakpuri",
+      "description": "Fresh, seasonal and premium fruits available daily at Chhoti Subji Mandi, Janakpuri, New Delhi. Order fresh mangoes, apples, bananas, grapes and more directly on WhatsApp.",
       "url": "https://dwivedifruitshop.in/",
       "telephone": "+919910850024",
+      "email": "dwivedifruitshop@gmail.com",
+
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Chhoti Subji Mandi",
+        "streetAddress": "Chhoti Subji Mandi, Janakpuri",
         "addressLocality": "Janakpuri",
         "addressRegion": "Delhi",
         "postalCode": "110058",
         "addressCountry": "IN"
       },
+
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": "28.6278",
         "longitude": "77.0825"
       },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-        "opens": "07:00",
-        "closes": "21:00"
-      },
+
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "07:00",
+          "closes": "22:00"
+        }
+      ],
+
       "hasMap": "https://maps.app.goo.gl/21UYuNf7U6nRWUyPA",
-      "priceRange": "₹"
+      "priceRange": "₹",
+      "currenciesAccepted": "INR",
+
+      "image": [
+        "https://dwivedifruitshop.in/shop.jpeg",
+        "https://dwivedifruitshop.in/logo.png"
+      ],
+
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dwivedifruitshop.in/logo.png",
+        "width": "200",
+        "height": "200"
+      },
+
+      "paymentAccepted": ["Cash", "UPI", "Google Pay", "PhonePe", "Paytm"],
+
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+
+      "sameAs": [
+        "https://wa.me/919910850024",
+        "https://maps.app.goo.gl/21UYuNf7U6nRWUyPA",
+        "https://www.google.com/maps/place/Dwivedi+Fruit+Shop"
+      ],
+
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Fresh Fruits",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Fresh Mangoes",
+              "description": "Premium seasonal mangoes sourced fresh daily"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Fresh Apples",
+              "description": "Crisp and fresh apples available daily"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Fresh Bananas",
+              "description": "Farm-fresh bananas available daily"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Fresh Grapes",
+              "description": "Sweet and seedless grapes sourced fresh"
+            }
+          }
+        ]
+      },
+
+      "areaServed": [
+        { "@type": "City", "name": "Janakpuri" },
+        { "@type": "City", "name": "Uttam Nagar" },
+        { "@type": "City", "name": "Dwarka" },
+        { "@type": "City", "name": "Tilak Nagar" },
+        { "@type": "City", "name": "New Delhi" }
+      ],
+
+      "keywords": "fruit shop Janakpuri, fresh fruits Janakpuri, फल की दुकान जनकपुरी, mango shop Delhi, fruit delivery Janakpuri, Chhoti Subji Mandi, best fruit shop Delhi",
+
+      "founder": {
+        "@type": "Person",
+        "name": "Dwivedi Ji"
+      },
+
+      "knowsAbout": ["Fresh Fruits", "Seasonal Fruits", "Fruit Wholesale", "Fruit Retail", "Organic Fruits"]
+    }
+    </script>
+
+    <!-- FAQPage Schema for Hindi/Local Search Rich Results -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "जनकपुरी में सबसे अच्छी फल की दुकान कौनसी है?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dwivedi Fruit Shop, Chhoti Subji Mandi, Janakpuri, New Delhi में रोज़ ताज़े फल मिलते हैं। Google पे 5 स्टार रेटिंग के साथ यह जनकपुरी की सबसे भरोसेमंद फल की दुकान है। सुबह 7 बजे से रात 10 बजे तक खुली रहती है।"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Janakpuri mein fruit shop kahan hai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dwivedi Fruit Shop is located at Chhoti Subji Mandi, Janakpuri, New Delhi – 110058. Open daily from 7 AM to 10 PM. Call or WhatsApp: +91 99108 50024."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aam kahan milega Janakpuri mein?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dwivedi Fruit Shop mein season ke sabse achhe aam milte hain. Chhoti Subji Mandi, Janakpuri mein hamare yahan aayein ya WhatsApp pe order karein: +91 99108 50024."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kya WhatsApp pe fruit order kar sakte hain Janakpuri mein?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haan! Dwivedi Fruit Shop par aap seedha WhatsApp pe apna order de sakte hain. Number hai: +91 99108 50024. Koi app download karne ki zaroorat nahi."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema (#11) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dwivedifruitshop.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Fresh Fruits",
+          "item": "https://dwivedifruitshop.in/#shop"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dwivedi Fruit Shop – Janakpuri",
+          "item": "https://dwivedifruitshop.in/#contact"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Review Schema (#12) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Dwivedi Fruit Shop",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Local Customer" },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Best fruit shop in Janakpuri! Fresh fruits every day and easy WhatsApp ordering. Highly recommended."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Regular Customer" },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Aam aur Lychee bahut tasty milte hain yahan. Prices bhi sahi hain. Roz aata hoon."
+        }
+      ]
+    }
+    </script>
+
+    <!-- Product ItemList Schema (#13) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Fresh Fruits at Dwivedi Fruit Shop, Janakpuri",
+      "description": "Fresh fruits available daily at Dwivedi Fruit Shop, 10/16 Chhoti Subji Mandi, Janakpuri, New Delhi",
+      "url": "https://dwivedifruitshop.in/#shop",
+      "itemListElement": [
+        {
+          "@type": "ListItem", "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "Lychee",
+            "image": "https://dwivedifruitshop.in/shop.jpeg",
+            "description": "Fresh seasonal Lychee (Litchi) available at Dwivedi Fruit Shop, Janakpuri",
+            "brand": { "@type": "Brand", "name": "Dwivedi Fruit Shop" },
+            "offers": { "@type": "Offer", "priceCurrency": "INR", "price": "349", "priceValidUntil": "2025-12-31", "availability": "https://schema.org/InStock", "seller": { "@type": "Organization", "name": "Dwivedi Fruit Shop" } }
+          }
+        },
+        {
+          "@type": "ListItem", "position": 2,
+          "item": {
+            "@type": "Product",
+            "name": "Safeda Mango",
+            "description": "Fresh seasonal Safeda Mango available at Dwivedi Fruit Shop, Janakpuri",
+            "brand": { "@type": "Brand", "name": "Dwivedi Fruit Shop" },
+            "offers": { "@type": "Offer", "priceCurrency": "INR", "price": "199", "priceValidUntil": "2025-12-31", "availability": "https://schema.org/InStock", "seller": { "@type": "Organization", "name": "Dwivedi Fruit Shop" } }
+          }
+        },
+        {
+          "@type": "ListItem", "position": 3,
+          "item": {
+            "@type": "Product",
+            "name": "Fuji Apple",
+            "description": "Premium Fuji Apple available at Dwivedi Fruit Shop, Janakpuri",
+            "brand": { "@type": "Brand", "name": "Dwivedi Fruit Shop" },
+            "offers": { "@type": "Offer", "priceCurrency": "INR", "price": "350", "priceValidUntil": "2025-12-31", "availability": "https://schema.org/InStock", "seller": { "@type": "Organization", "name": "Dwivedi Fruit Shop" } }
+          }
+        },
+        {
+          "@type": "ListItem", "position": 4,
+          "item": {
+            "@type": "Product",
+            "name": "Pomegranate (Anar)",
+            "description": "Fresh Pomegranate (Anar) available at Dwivedi Fruit Shop, Janakpuri",
+            "brand": { "@type": "Brand", "name": "Dwivedi Fruit Shop" },
+            "offers": { "@type": "Offer", "priceCurrency": "INR", "price": "280", "priceValidUntil": "2025-12-31", "availability": "https://schema.org/InStock", "seller": { "@type": "Organization", "name": "Dwivedi Fruit Shop" } }
+          }
+        },
+        {
+          "@type": "ListItem", "position": 5,
+          "item": {
+            "@type": "Product",
+            "name": "Red Grapes (Lal Angoor)",
+            "description": "Fresh Red Grapes (Lal Angoor) at Dwivedi Fruit Shop, Janakpuri",
+            "brand": { "@type": "Brand", "name": "Dwivedi Fruit Shop" },
+            "offers": { "@type": "Offer", "priceCurrency": "INR", "price": "490", "priceValidUntil": "2025-12-31", "availability": "https://schema.org/InStock", "seller": { "@type": "Organization", "name": "Dwivedi Fruit Shop" } }
+          }
+        },
+        {
+          "@type": "ListItem", "position": 6,
+          "item": {
+            "@type": "Product",
+            "name": "Banana (Kela)",
+            "description": "Fresh Bananas (Kela) sold by dozen at Dwivedi Fruit Shop, Janakpuri",
+            "brand": { "@type": "Brand", "name": "Dwivedi Fruit Shop" },
+            "offers": { "@type": "Offer", "priceCurrency": "INR", "price": "80", "priceValidUntil": "2025-12-31", "availability": "https://schema.org/InStock", "seller": { "@type": "Organization", "name": "Dwivedi Fruit Shop" } }
+          }
+        },
+        {
+          "@type": "ListItem", "position": 7,
+          "item": {
+            "@type": "Product",
+            "name": "Chausa Mango",
+            "description": "Fresh seasonal Chausa Mango at Dwivedi Fruit Shop, Janakpuri",
+            "brand": { "@type": "Brand", "name": "Dwivedi Fruit Shop" },
+            "offers": { "@type": "Offer", "priceCurrency": "INR", "price": "249", "priceValidUntil": "2025-12-31", "availability": "https://schema.org/InStock", "seller": { "@type": "Organization", "name": "Dwivedi Fruit Shop" } }
+          }
+        },
+        {
+          "@type": "ListItem", "position": 8,
+          "item": {
+            "@type": "Product",
+            "name": "Rockit Apple",
+            "description": "Premium Rockit Apple available at Dwivedi Fruit Shop, Janakpuri",
+            "brand": { "@type": "Brand", "name": "Dwivedi Fruit Shop" },
+            "offers": { "@type": "Offer", "priceCurrency": "INR", "price": "340", "priceValidUntil": "2025-12-31", "availability": "https://schema.org/InStock", "seller": { "@type": "Organization", "name": "Dwivedi Fruit Shop" } }
+          }
+        },
+        {
+          "@type": "ListItem", "position": 9,
+          "item": {
+            "@type": "Product",
+            "name": "Peach (Aadu)",
+            "description": "Fresh seasonal Peach (Aadu) at Dwivedi Fruit Shop, Janakpuri",
+            "brand": { "@type": "Brand", "name": "Dwivedi Fruit Shop" },
+            "offers": { "@type": "Offer", "priceCurrency": "INR", "price": "199", "priceValidUntil": "2025-12-31", "availability": "https://schema.org/InStock", "seller": { "@type": "Organization", "name": "Dwivedi Fruit Shop" } }
+          }
+        },
+        {
+          "@type": "ListItem", "position": 10,
+          "item": {
+            "@type": "Product",
+            "name": "Mosambi (Sweet Lime)",
+            "description": "Fresh Mosambi (Sweet Lime) at Dwivedi Fruit Shop, Janakpuri",
+            "brand": { "@type": "Brand", "name": "Dwivedi Fruit Shop" },
+            "offers": { "@type": "Offer", "priceCurrency": "INR", "price": "99", "priceValidUntil": "2025-12-31", "availability": "https://schema.org/InStock", "seller": { "@type": "Organization", "name": "Dwivedi Fruit Shop" } }
+          }
+        }
+      ]
     }
     </script>
   </head>

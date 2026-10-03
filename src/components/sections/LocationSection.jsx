@@ -34,11 +34,11 @@ export default function LocationSection() {
           <div className="flex flex-col justify-center gap-6">
             <div className="bg-gray-50 rounded-3xl p-6 border border-gray-100">
               <h3 className="font-bold text-gray-900 text-xl mb-4">Dwivedi Fruit Shop</h3>
-              <div className="space-y-3">
+              <address className="not-italic space-y-3">
                 <div className="flex items-start gap-3 text-gray-600">
                   <MapPin className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                   <div>
-                    <p>Chhoti Subji Mandi,</p>
+                    <p className="font-semibold text-gray-800">10/16, Chhoti Subji Mandi,</p>
                     <p>Janakpuri,</p>
                     <p>New Delhi, Delhi – 110058</p>
                   </div>
@@ -47,6 +47,14 @@ export default function LocationSection() {
                   <Phone className="w-5 h-5 text-green-500 flex-shrink-0" />
                   <a href={CALL_HREF} className="hover:text-green-600 transition-colors">+91 99108 50024</a>
                 </div>
+              </address>
+              <div className="mt-3 space-y-1">
+                <p className="text-xs text-gray-500 font-medium" lang="hi">
+                  जनकपुरी में ताज़े फल की दुकान · फल वाला जनकपुरी
+                </p>
+                <p className="text-xs text-gray-400" lang="hi">
+                  आम, सेब, केला, अंगूर — रोज़ सुबह ताज़ी खेप आती है
+                </p>
               </div>
             </div>
 
