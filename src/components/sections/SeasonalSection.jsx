@@ -74,7 +74,9 @@ function SeasonalCard({ product, seasonBadge, onAdd }) {
         </span>
         <img
           src={product.image}
-          alt={product.name}
+          alt={`${product.name}${product.nameHindi ? ` (${product.nameHindi})` : ""} - Fresh seasonal fruit at Dwivedi Fruit Shop Janakpuri`}
+          width="200"
+          height="200"
           className="w-full h-full object-cover"
           loading="lazy"
           onError={(e) => { e.target.src = `https://placehold.co/200x200/f0fdf4/22c55e?text=${encodeURIComponent(product.emoji || "🍎")}`; }}

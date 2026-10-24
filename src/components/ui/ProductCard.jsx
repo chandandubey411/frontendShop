@@ -58,7 +58,9 @@ export default function ProductCard({ product, onAddToCart }) {
         )}
         <img
           src={imgSrc}
-          alt={product.name + (product.nameHindi ? ` (${product.nameHindi})` : "")}
+          alt={`${product.name}${product.nameHindi ? ` (${product.nameHindi})` : ""} - Fresh fruit at Dwivedi Fruit Shop Janakpuri`}
+          width="300"
+          height="300"
           className="w-full h-full object-cover"
           loading="lazy"
           onError={() => setImgError(true)}

@@ -18,8 +18,8 @@ export default function Footer() {
           {/* Col 1 – Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-full bg-green-500 flex items-center justify-center">
-                <img src="/logo.png"/>
+              <div className="w-9 h-9 rounded-full bg-green-500 flex items-center justify-center overflow-hidden">
+                <img src="/logo.png" alt="Dwivedi Fruit Shop Logo" width="36" height="36" className="w-full h-full object-cover" />
               </div>
               <div className="leading-none">
                 <span className="block font-bold text-white text-base">Dwivedi</span>

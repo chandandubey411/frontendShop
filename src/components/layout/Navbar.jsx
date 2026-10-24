@@ -71,8 +71,8 @@ export default function Navbar({ onSearch }) {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-3">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 flex-shrink-0" aria-label="Dwivedi Fruit Shop – Home">
-            <div className="w-9 h-9 rounded-full bg-green-500 flex items-center justify-center shadow-sm">
-              <img src="/logo.png"/>
+            <div className="w-9 h-9 rounded-full bg-green-500 flex items-center justify-center shadow-sm overflow-hidden">
+              <img src="/logo.png" alt="Dwivedi Fruit Shop Logo" width="36" height="36" className="w-full h-full object-cover" />
             </div>
             <div className="leading-none">
               <span className="block font-bold text-gray-900 text-base tracking-tight">Dwivedi</span>

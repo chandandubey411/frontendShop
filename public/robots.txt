@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
+Allow: /assets/
+Allow: /logo.png
+Allow: /shop.jpeg
+Allow: /favicon.svg
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
 
 Sitemap: https://dwivedifruitshop.in/sitemap.xml

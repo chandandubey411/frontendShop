@@ -76,9 +76,12 @@ export default function HeroSection() {
               <div className="w-full h-full rounded-full bg-gradient-to-br from-green-100 to-yellow-50 flex items-center justify-center shadow-2xl shadow-green-100/60">
                 <img
                   src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=600&q=85"
-                  alt="Fresh fruit assortment — apples, mangoes, oranges, grapes and more"
+                  alt="Fresh fruit assortment including mangoes, apples, grapes, and bananas at Dwivedi Fruit Shop, Janakpuri, New Delhi"
+                  width="384"
+                  height="384"
                   className="w-full h-full object-cover rounded-full"
                   loading="eager"
+                  fetchPriority="high"
                   onError={(e) => { e.target.src = "https://placehold.co/400x400/f0fdf4/22c55e?text=🍎"; }}
                 />
               </div>

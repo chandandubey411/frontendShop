@@ -12,6 +12,8 @@ export default function AboutSection() {
               <img
                 src="/shop.jpeg"
                 alt="Dwivedi Fruit Shop at 10/16, Chhoti Subji Mandi, Janakpuri, New Delhi – fresh seasonal fruits display"
+                width="600"
+                height="450"
                 className="w-full h-full object-cover"
                 loading="lazy"
                 onError={(e) => { e.target.src = "https://placehold.co/600x400/f0fdf4/22c55e?text=Fresh+Fruits"; }}

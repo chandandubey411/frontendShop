@@ -16,22 +16,22 @@ const faqs = [
   {
     q: "Janakpuri mein sabse acchi fruit shop kaunsi hai?",
     qhi: "जनकपुरी में सबसे अच्छी फल की दुकान कौनसी है?",
-    a: "Dwivedi Fruit Shop at Chhoti Subji Mandi, Janakpuri is known for the freshest fruits, best prices, and easy WhatsApp ordering. Open daily 7 AM – 10 PM.",
+    a: "Dwivedi Fruit Shop, Chhoti Subji Mandi, Janakpuri, New Delhi में रोज़ ताज़े और चुने हुए फल मिलते हैं। आम, सेब, केला, अनार, अंगूर और मौसमी फल उचित दाम में उपलब्ध हैं। दुकान रोज़ सुबह 7:00 AM से रात 10:00 PM तक खुली रहती है।",
   },
   {
-    q: "Kya WhatsApp pe order kar sakte hain?",
-    qhi: "क्या WhatsApp पे फल का ऑर्डर कर सकते हैं?",
-    a: "Haan! Seedha WhatsApp pe message karein — +91 99108 50024. No app, no signup needed. Bilkul aasan.",
+    q: "Kya WhatsApp pe fruit order kar sakte hain Janakpuri mein?",
+    qhi: "क्या WhatsApp पे फल ऑर्डर कर सकते हैं?",
+    a: "हाँ, बिल्कुल! Dwivedi Fruit Shop पर आप सीधे WhatsApp (+91 99108 50024) पर अपना फल ऑर्डर भेज सकते हैं। कोई ऐप डाउनलोड करने या साइन-अप की आवश्यकता नहीं है।",
   },
   {
-    q: "Aam, Seb, Angoor kab milte hain?",
-    qhi: "आम, सेब, अंगूर कब मिलते हैं?",
-    a: "Humari dukaan mein season ke hisaab se sabhi tarah ke fresh fruits milte hain — Aam, Seb, Kela, Angoor, Papita aur bahut kuch. Roz subah nayi khaep aati hai.",
+    q: "Aam aur seasonal fruits kahan milenge Janakpuri mein?",
+    qhi: "ताज़ा आम और मौसमी फल कहाँ मिलेंगे?",
+    a: "Dwivedi Fruit Shop में सफ़ेदा, दशहरी, चौसा, सिंदूरी आम, लीची, आड़ू, बब्बू गोशा, खरबूजा और तरबूज जैसे सभी ताज़े मौसमी फल मिलते हैं। सीधे दुकान पर आएँ या WhatsApp (+91 99108 50024) पर पूछें।",
   },
   {
-    q: "Dwivedi Fruit Shop ka address kya hai?",
+    q: "Dwivedi Fruit Shop ka address aur timings kya hai?",
     qhi: "द्विवेदी फ्रूट शॉप का पता क्या है?",
-    a: "Chhoti Subji Mandi, Janakpuri, New Delhi – 110058. Google Maps pe 'Dwivedi Fruit Shop' search karein ya neeche ka map use karein.",
+    a: "दुकान का पता: 10/16, छोटी सब्जी मंडी, जनकपुरी, नई दिल्ली – 110058 (नजदीक उत्तम नगर / जनकपुरी)। समय: रोज़ सुबह 7:00 AM से रात 10:00 PM। फोन/व्हाट्सएप: +91 99108 50024।",
   },
 ];
 
